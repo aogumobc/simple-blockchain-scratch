@@ -15,7 +15,7 @@ class Blockchain:
         self.difficulty = _difficulty
         self.target = 2 << (256 -self.difficulty -1)
         
-        self.block = Block("MyBlockchain")
+        self.block = Block("Genesis Block")
         _ = head = self.block
         self.head = head
 
